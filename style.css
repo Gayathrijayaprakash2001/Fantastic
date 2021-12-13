@@ -1,0 +1,93 @@
+*{
+
+    margin: 20;
+    padding: 20;
+    box-sizing:border-box ;
+     }
+    
+     
+    
+     body{
+    
+        background-color:pink ;
+        height: 10vh;
+     }
+     .main{
+    
+        display: flex;
+        align-items:left;
+        justify-content:left;
+        height:20vh;
+     }
+    
+     h1{
+         text-align:relative; 
+        color:#1e044e;
+         font-size:2rem ;
+         margin: 50px;
+        }
+    
+    
+        .form{
+        position: sticky;
+            width: 50%;
+            height: 10%;
+            font-size: 2rem;
+        }
+    
+        input{
+            width: 50%;
+            height: 30px;
+            color:brown;
+            font-size:1rem;
+            border: none;
+            outline: none;
+            margin-top:10px;
+           border-bottom: 2px solid darkslategray;
+    
+        }
+    
+        .to-btn{
+            border:none;
+            width: 70px;
+            height: 35px;
+            background-color : brown;
+            
+            color:white;
+            cursor: pointer;
+    
+        }
+    
+        .todo-con{
+    
+            display: left;
+            justify-content: left;
+            align-items: relative;
+    
+        }
+    
+        .todo-list{
+    
+            width: 10.5%;
+            list-style: decimal;
+            
+        }
+
+
+        .todo{
+
+
+            margin: 30px;
+            color:black;
+            display: flex;
+            font-size: 1.5rem;
+            justify-content:space-between ;
+            align-items:relative ;
+            translate: all 20s ease;
+            background-color:  rgb(204, 61, 42);
+
+        }
+
+        .todoItems {
+            color:white;
+        }
