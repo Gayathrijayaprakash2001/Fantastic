@@ -4,23 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="href="https://kit.fontawesome.com/a076d05399.js">
+    <title>TODO Application</title>
 </head>
 <body>
-  <div class="wrapper">
-    <header>Todo list</header>
-    <div class="inputField">
-      <input type="text" placeholder="Add your new todo">
-      <button><i class="fa fa-caret-right"></i></button>
+<style>
+  body
+  {
+    background-image:url('snowman.png') ;
+
+  }
+</style>
+   <h1><font face = "Comic Sans MS" size="6">TO DO APPLICATION </font><br /></h1>
+  <section class="main">
+    <div class="form"> 
+      
+        <input class="to-in" type="text"  name="name" placeholder="Let`s do it"  required/>
+        <button class="to-btn" type="submit">Add</button>
+        
+        
     </div>
-    <ul class="todoList">
+
+  </section>
+
+  <div class="todo-con">
+
+    <ul class="todo-list">
+      
+
+
     </ul>
-    <div class="footer">
-      <span>You have <span class="pendingTasks"></span> pending tasks</span>
-      <button>Clear All</button>
-    </div>
+
   </div>
+  
 
-
+    <script src="app.js"></script>
 </body>
 </html>
